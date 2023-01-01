@@ -1,2 +1,2 @@
-## Neel_Personal_Website
-#### Checkout <a href="https://theofficialneel.github.io">theofficialneel.github.io</a>
+# Personal Website
+#### Checkout <a href="neelakash.live">neelakash.live</a>

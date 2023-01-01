@@ -1,4 +1,4 @@
-const maxParts = 300;
+const maxParts = 100;
 
 function drawRain() {	
 	let canvas = document.querySelector('canvas');
@@ -17,16 +17,16 @@ function drawRain() {
 				x: Math.random() * w,
 				y: Math.random() * h,
 				l: Math.random() * 1,
-				xs: Math.random() * 2 - 1,
-				ys: Math.random() * 4 + 4
+				xs: Math.random() * 1 - 1,
+				ys: Math.random() * 2 + 2
 			});
 		}
 	  
 		function draw() {
 			ctx.clearRect(0, 0, w, h);
 			particles.forEach((p) => {
-				ctx.font = "2em Monospace";
-				ctx.fillStyle = "rgba(60, 180, 60, 0.8)";
+				ctx.font = "20px Monospace";
+				ctx.fillStyle = "rgba(60, 180, 60, 0.6)";
 				ctx.fillText(p.value, p.x, p.y);
 			});
 			move();
